@@ -1,0 +1,12 @@
+files = [
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_990_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_835_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_815_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_909_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_1042_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_871_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_802_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_1020_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_864_eeg_raw.fif",
+    "/path/to/your/data/RCS04/during_surv/fif/RCS04_776_eeg_raw.fif"
+]
