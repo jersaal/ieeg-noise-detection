@@ -19,5 +19,7 @@ This project implements a pipeline for detecting stimulation-induced noise in in
   - `utils.py`: Contains shared classes and functions used across scripts.
   - `config.toml`: Configuration file with parameters and file paths.
   - `RCS04_vae_selected_fns.toml`: Example file with selected VAEs for a specific patient.
+- `data/`
+  - `resnet_model.pth`: Examp
 - `README.md`: Project documentation.
 - `LICENSE`: Project license.
