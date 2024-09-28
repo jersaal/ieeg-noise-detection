@@ -45,25 +45,6 @@ os.makedirs(tr_noisy_spectra_dir, exist_ok=True)
 os.makedirs(noisy_spec_fig_dir, exist_ok=True)
 os.makedirs(clean_spec_fig_dir, exist_ok=True)
 
-# Directories for validation
-val_traces_dir = os.path.join(base_dir, 'val_traces/')
-val_raw_noisy_dir = os.path.join(val_traces_dir, 'raw_noisy/')
-val_clean_dir = os.path.join(val_traces_dir, 'clean/')
-val_spectra_dir = os.path.join(base_dir, 'val_spectra/')
-val_spectra_fig_dir = os.path.join(val_spectra_dir, 'spectra_figures/')
-val_tr_clean_spectra_dir = os.path.join(val_spectra_dir, 'clean/')
-val_tr_noisy_spectra_dir = os.path.join(val_spectra_dir, 'noisy/')
-val_noisy_spec_fig_dir = os.path.join(val_spectra_fig_dir, 'noisy/')
-val_clean_spec_fig_dir = os.path.join(val_spectra_fig_dir, 'clean/')
-
-# Create necessary directories
-os.makedirs(val_raw_noisy_dir, exist_ok=True)
-os.makedirs(val_clean_dir, exist_ok=True)
-os.makedirs(val_tr_clean_spectra_dir, exist_ok=True)
-os.makedirs(val_tr_noisy_spectra_dir, exist_ok=True)
-os.makedirs(val_noisy_spec_fig_dir, exist_ok=True)
-os.makedirs(val_clean_spec_fig_dir, exist_ok=True)
-
 # Set up the device for PyTorch (use GPU if available)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
