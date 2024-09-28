@@ -18,8 +18,7 @@ This project implements a pipeline for detecting stimulation-induced noise in in
   - `vae_autocorr_analysis.py`: Analyze autocorrelation of real and synthetic EEG data.
   - `utils.py`: Contains shared classes and functions used across scripts.
   - `config.toml`: Configuration file with parameters and file paths.
-  - `RCS04_vae_selected_fns.toml`: Example file with selected VAEs for a specific patient.
+  - `RCS04_vae_selected_fns.toml`: Example file with EDF filenames to be used for VAE training.
 - `data/`
-  - `resnet_model.pth`: Examp
+  - `resnet_model.pth`: ResNet model trained on VAE-generated data.
 - `README.md`: Project documentation.
-- `LICENSE`: Project license.
