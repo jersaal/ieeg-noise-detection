@@ -3,6 +3,7 @@
 This repository contains the code accompanying the manuscript:
 
 **"Robust Detection of Brain Stimulation Artifacts in iEEG Using Autoencoder-Generated Signals and ResNet Classification"**
+https://www.biorxiv.org/content/10.1101/2024.09.30.615930v1
 
 ## Overview
 
