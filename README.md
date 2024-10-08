@@ -30,7 +30,7 @@ This project implements a pipeline for detecting stimulation-induced noise in in
 ## How to Use
 
 1. **Setup the Configuration File**:
-   - The script uses a configuration file (`classify_config.toml`) to specify file paths and decision threhsold.   
+   - The script uses a configuration file (`classify_config.toml`) to specify file paths and decision threshold.   
    - Modify the `classify_config.toml` file to point to the correct locations for your data and pre-trained model. An example configuration file is provided.
 
 2. **Run the Classification Script**:
