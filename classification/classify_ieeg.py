@@ -65,9 +65,9 @@ def classify_spectra_images(image):
 
     return predicted_class, noise_prob
 
-def validate_model_on_eeg_files(data_folder, output_folder):
+def classify_eeg_files(data_folder, output_folder):
     """
-    Validate the trained ResNet model on EEG data files and classify them.
+    Classify iEEG files using the trained ResNet model.
     Saves classification results (filename, noise classification, noise probability) in a CSV.
     """
     results = []
@@ -96,4 +96,4 @@ def validate_model_on_eeg_files(data_folder, output_folder):
     print(f"Results saved to {csv_save_path}")
 
 # Run the validation
-validate_model_on_eeg_files(data_folder, output_folder)
+classify_eeg_files(data_folder, output_folder)
