@@ -27,7 +27,10 @@ This project implements a pipeline for detecting stimulation-induced noise in in
     - `classify_ieeg.py`: Classify 2.5s segments of iEEG data using classify_config.toml.
 - `README.md`: Project documentation.
 
+
 ## How to Use
+
+The following instructions allow users to classify a set of 2.5s .fif files containing clean and noisy iEEG signals. 
 
 1. **Setup the Configuration File**:
    - The script uses a configuration file (`classify_config.toml`) to specify file paths and decision threshold.   
