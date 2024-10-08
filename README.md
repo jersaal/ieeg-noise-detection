@@ -27,12 +27,7 @@ This project implements a pipeline for detecting stimulation-induced noise in in
     - `classify_ieeg.py`: Classify 2.5s segments of iEEG data using classify_config.toml.
 - `README.md`: Project documentation.
 
-### Classification of iEEG Data for Noise Detection
-
-The `classify_ieeg.py` script allows users to classify EEG data files as either "noisy" or "clean" using a pre-trained ResNet model.
-
-
-#### How to Use
+## How to Use
 
 1. **Setup the Configuration File**:
    - The script uses a configuration file (`classify_config.toml`) to specify file paths and decision threhsold.   
