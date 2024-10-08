@@ -1,0 +1,5 @@
+files = [
+    "/path/to/your/data/file1.fif",
+    "/path/to/your/data/file2.fif",
+    "/path/to/your/data/file3.fif"
+   ] 

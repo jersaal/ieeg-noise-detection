@@ -7,7 +7,7 @@ vae_participant_id = "RCS04"
 resnet_output_dir = "/path/to/your/resnet/output/directory/"
 val_output_dir = "/path/to/your/validation/output/directory/"
 participants = ["RCS02", "RCS04", "RCS05", "RCS06", "RCS07"]
-val_data_folder = "/path/to/your/validation/data/folder/{}/during_pre_stim_fornoisepaper/fif/"
+val_data_folder = "/path/to/your/validation/data/folder/fif/"
 vae_autocorr_files_config = "/path/to/your/vae_autocorr_files_config.toml"
 
 [data]

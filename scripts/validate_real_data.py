@@ -278,7 +278,7 @@ def validate_model_on_eeg_files(data_folder, output_folder, RCS0X, save_images=F
 for RCS0X in participants:
     logging.info(f"STARTING WITH PARTICIPANT: {RCS0X}")
 
-    data_folder = val_data_folder.format(RCS0X)
+    data_folder = val_data_folder
     output_folder = f"{val_output_dir}pre_during_performance_figs/{RCS0X}/"
 
     os.makedirs(output_folder, exist_ok=True)
