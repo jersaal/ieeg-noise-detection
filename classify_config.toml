@@ -1,0 +1,9 @@
+# Paths for data and model
+[paths]
+model_path = "/path/to/pretrained_resnet.pth"  # Path to pre-trained ResNet model
+data_folder = "/path/to/eeg_data"  # Folder containing 2.5s .fif iEEG files
+output_folder = "/path/to/output_folder"  # Folder to save results and images
+
+# Model settings
+[model]
+noise_threshold = 0.5  # Threshold for classifying noisy vs clean
