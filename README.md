@@ -17,10 +17,10 @@ This project implements a pipeline for detecting stimulation-induced noise in in
   - `train_resnet.py`: Train the ResNet-18 classifier on synthetic data.
   - `validate_real_data.py`: Validate the trained classifier on real iEEG data.
   - `vae_autocorr_analysis.py`: Analyze autocorrelation of real and synthetic EEG data.
-  - `utils.py`: Contains shared classes and functions used across scripts.
-  - `config.toml`: Configuration file with parameters and file paths for full analysis. 
-  - `RCS04_vae_selected_fns.toml`: Example file with EDF filenames to be used for VAE training.
-  - `classify_config.toml`: Configuration file with parameters and file paths for classification given a pre-trained ResNet model.
+- `utils.py`: Contains shared classes and functions used across scripts.
+- `config.toml`: Configuration file with parameters and file paths for full analysis. 
+- `RCS04_vae_selected_fns.toml`: Example file with .fif filenames to be used for VAE training.
+- `classify_config.toml`: Configuration file with parameters and file paths for classification given a pre-trained ResNet model.
 - `data/`
   - `resnet_model.pth`: ResNet model trained on VAE-generated data.
 - `classification/` Contains scripts for classifying iEEG data as noisy or clean using the pre-trained ResNet model.
